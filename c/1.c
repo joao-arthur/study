@@ -1,3 +1,6 @@
+/*
+ * Hello world example using stdlib constants
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
