@@ -7,40 +7,40 @@
 #include <stdint.h>
 
 int main(void) {
-    short short1 = 1;
-    int int1 = 1;
-    long long1 = 1;
-    long long longlong1 = 1;
-    float float1 = 1.f;
+    short short_1 = 1;
+    int int_1 = 1;
+    long long_1 = 1;
+    long long long_long_1 = 1;
+    float float_1 = 1.f;
 
-    unsigned char* shortc = (unsigned char *) &short1;
-    unsigned char* intc = (unsigned char *) &int1;
-    unsigned char* longc = (unsigned char *) &long1;
-    unsigned char* longlongc = (unsigned char *) &longlong1;
-    unsigned char* floatc = (unsigned char *) &float1;
+    unsigned char* shortc = (unsigned char *) &short_1;
+    unsigned char* intc = (unsigned char *) &int_1;
+    unsigned char* longc = (unsigned char *) &long_1;
+    unsigned char* longlongc = (unsigned char *) &long_long_1;
+    unsigned char* floatc = (unsigned char *) &float_1;
 
     printf("short     0x");
-    for (int i = sizeof(short1) - 1; i >= 0; i--) {
+    for (int i = sizeof(short_1) - 1; i >= 0; i--) {
         printf("%02x", shortc[i]);
     }
     printf("\n");
     printf("int       0x");
-    for (int i = sizeof(int1) - 1; i >= 0; i--) {
+    for (int i = sizeof(int_1) - 1; i >= 0; i--) {
         printf("%02x", intc[i]);
     }
     printf("\n");
     printf("long      0x");
-    for (int i = sizeof(long1) - 1; i >= 0; i--) {
+    for (int i = sizeof(long_1) - 1; i >= 0; i--) {
         printf("%02x", longc[i]);
     }
     printf("\n");
     printf("long long 0x");
-    for (int i = sizeof(longlong1) - 1; i >= 0; i--) {
+    for (int i = sizeof(long_long_1) - 1; i >= 0; i--) {
         printf("%02x", longlongc[i]);
     }
     printf("\n");
     printf("float     0x");
-    for (int i = sizeof(float1) - 1; i >= 0; i--) {
+    for (int i = sizeof(float_1) - 1; i >= 0; i--) {
         printf("%02x", floatc[i]);
     }
     printf("\n");
