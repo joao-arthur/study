@@ -5,20 +5,20 @@ import java.time.LocalDate;
 final class Author {
     private final String id;
     private final String name;
-    private final LocalDate birthDate;
+    private final LocalDate birthdate;
 
     public Author(
         final String id,
         final String name,
-        final LocalDate birthDate
+        final LocalDate birthdate
     ) {
         this.id = id;
         this.name = name;
-        this.birthDate = birthDate;
+        this.birthdate = birthdate;
     }
 
     @Override
     public String toString() {
-        return "Author (" + this.id + ", " + this.name + ", " + this.birthDate + ")";
+        return "Author (" + this.id + ", " + this.name + ", " + this.birthdate + ")";
     }
 }

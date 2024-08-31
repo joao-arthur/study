@@ -6,22 +6,22 @@ final class Librarian {
     private final String id;
     private final String name;
     private final LocalDate birthdate;
-    private final LocalDate admissionDate;
+    private final LocalDate admission;
 
     public Librarian(
         final String id,
         final String name,
         final LocalDate birthdate,
-        final LocalDate admissionDate
+        final LocalDate admission
     ) {
         this.id = id;
         this.name = name;
         this.birthdate = birthdate;
-        this.admissionDate = admissionDate;
+        this.admission = admission;
     }
 
     @Override
     public String toString() {
-        return "Librarian (" + this.id + ", " + this.name + ", " + this.birthdate + ", " + this.admissionDate + ")";
+        return "Librarian (" + this.id + ", " + this.name + ", " + this.birthdate + ", " + this.admission + ")";
     }
 }

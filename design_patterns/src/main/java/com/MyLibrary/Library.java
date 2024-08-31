@@ -1,6 +1,6 @@
 package com.MyLibrary;
 
-public class Library {
+public final class Library {
     private static Library instance;
 
     private Library() { }
