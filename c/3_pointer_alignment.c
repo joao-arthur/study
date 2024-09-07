@@ -1,5 +1,5 @@
 /*
- * pointer addresses and alignment example
+ * Pointer addresses and alignment
  */
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,5 +1,5 @@
 /*
- * Bytes of each type example
+ * Numeric types size
  */
 #include <stdio.h>
 #include <stdlib.h>
