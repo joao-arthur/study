@@ -51,10 +51,10 @@ int main(void) {
     int32_t int32_t1 = 1;
     int64_t int64_t1 = 1;
 
-    int_fast8_t int_fast8_t = 1;
-    int_fast16_t int_fast16_t = 1;
-    int_fast32_t int_fast32_t = 1;
-    int_fast64_t int_fast64_t = 1;
+    int_fast8_t int_fast8_t1 = 1;
+    int_fast16_t int_fast16_t1 = 1;
+    int_fast32_t int_fast32_t1 = 1;
+    int_fast64_t int_fast64_t1 = 1;
 
     int_least8_t int_least8_t1 = 1;
     int_least16_t int_least16_t1 = 1;
