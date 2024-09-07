@@ -1,5 +1,5 @@
 /*
- * function pointers
+ * Function pointers
  */
 #include <stdio.h>
 #include <stdlib.h>
