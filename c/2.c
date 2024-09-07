@@ -83,7 +83,7 @@ int main(void) {
 
     printf("int8        %dB int16        %dB int32        %dB int64        %dB\n", sizeof(int8_t1), sizeof(int16_t1), sizeof(int32_t1), sizeof(int64_t1));
     printf("uint8       %dB uint16       %dB uint32       %dB uint64       %dB\n", sizeof(uint8_t1), sizeof(uint16_t1), sizeof(uint32_t1), sizeof(uint64_t1));
-    printf("int_fast8   %dB int_fast16   %dB int_fast32   %dB int_fast64   %dB\n", sizeof(int_fast8_t), sizeof(int_fast16_t), sizeof(int_fast32_t), sizeof(int_fast64_t));
+    printf("int_fast8   %dB int_fast16   %dB int_fast32   %dB int_fast64   %dB\n", sizeof(int_fast8_t1), sizeof(int_fast16_t1), sizeof(int_fast32_t1), sizeof(int_fast64_t1));
     printf("uint_fast8  %dB uint_fast16  %dB uint_fast32  %dB uint_fast64  %dB\n", sizeof(uint_fast8_t1), sizeof(uint_fast16_t1), sizeof(uint_fast32_t1), sizeof(uint_fast64_t1));
     printf("int_least8  %dB int_least16  %dB int_least32  %dB int_least64  %dB\n", sizeof(int_least8_t1), sizeof(int_least16_t1), sizeof(int_least32_t1), sizeof(int_least64_t1));
     printf("uint_least8 %dB uint_least16 %dB uint_least32 %dB uint_least64 %dB\n", sizeof(uint_least8_t1), sizeof(uint_least16_t1), sizeof(uint_least32_t1), sizeof(uint_least64_t1));
