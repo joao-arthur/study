@@ -1,11 +1,9 @@
-/*
- * Hello world example using stdlib constants
- */
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
-    if (printf("Hello, world!\n") == EOF) {
+    int result = fputs("Hello, World!\n", stdout);
+    if (result == EOF) {
         return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;
