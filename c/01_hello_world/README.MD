@@ -1,3 +1,4 @@
-# 01
+# 01 - Hello, world
 
-Hello World using `stdlib.h` constants and `fputs` error checking
+- Usage of `stdlib.h` EXIT_FAILURE and EXIT_SUCCESS constants
+- Error checking for `fputs`

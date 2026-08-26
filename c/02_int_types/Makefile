@@ -1,6 +1,6 @@
 CC := cc
-CFLAGS := -std=c17 -Wall -Wextra -Wpedantic
-TARGET := numeric_types
+CFLAGS := -std=c23 -Wall -Wextra -Wpedantic
+TARGET := int_types
 
 .PHONY: all run clean
 

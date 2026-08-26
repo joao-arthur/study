@@ -1,5 +1,5 @@
 CC := cc
-CFLAGS := -std=c17 -Wall -Wextra -Wpedantic
+CFLAGS := -std=c23 -Wall -Wextra -Wpedantic
 TARGET := hello_world
 
 .PHONY: all run clean
