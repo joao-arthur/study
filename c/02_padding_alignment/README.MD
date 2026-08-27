@@ -1,4 +1,4 @@
-# 03 - Padding and alignment
+# 02 - Padding and alignment
 
 - Alignment
 - Tail padding

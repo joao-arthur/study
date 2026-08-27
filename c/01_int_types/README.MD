@@ -1,4 +1,4 @@
-# 02 - int types
+# 01 - int types
 
 - `intN_t` size, MIN, MAX
 - `uintN_t` size, MIN, MAX
