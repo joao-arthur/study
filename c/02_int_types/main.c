@@ -1,8 +1,8 @@
 #include <inttypes.h>
+#include <limits.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 int main(void) {
     fprintf(stdout, "Number of bits in a byte (not required to be 8): %d\n", CHAR_BIT);
