@@ -1,4 +1,4 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.library;
 
 public final class Library {
     private static Library instance;

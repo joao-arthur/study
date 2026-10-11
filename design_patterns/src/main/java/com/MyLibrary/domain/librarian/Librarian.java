@@ -1,8 +1,8 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.librarian;
 
 import java.time.LocalDate;
 
-final class Librarian {
+public final class Librarian {
     private final String id;
     private final String name;
     private final LocalDate birthdate;
@@ -22,6 +22,13 @@ final class Librarian {
 
     @Override
     public String toString() {
-        return "Librarian (" + this.id + ", " + this.name + ", " + this.birthdate + ", " + this.admission + ")";
+        return new StringBuilder()
+            .append("Librarian (")
+            .append(this.id).append(", ")
+            .append(this.name).append(", ")
+            .append(this.birthdate).append(", ")
+            .append(this.admission)
+            .append(")")
+            .toString();
     }
 }

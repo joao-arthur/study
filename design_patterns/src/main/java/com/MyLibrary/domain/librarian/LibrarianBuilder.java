@@ -1,8 +1,8 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.librarian;
 
 import java.time.LocalDate;
 
-final class LibrarianBuilder {
+public final class LibrarianBuilder {
     private String id;
     private String name;
     private LocalDate birthdate;

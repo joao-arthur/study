@@ -1,8 +1,8 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.user;
 
 import java.time.LocalDate;
 
-final class User {
+public final class User {
     private final String id;
     private final String name;
     private final LocalDate birthdate;
@@ -19,6 +19,12 @@ final class User {
 
     @Override
     public String toString() {
-        return "User (" + this.id + ", " + this.name + ", " + this.birthdate + ")";
+        return new StringBuilder()
+            .append("User (")
+            .append(this.id).append(", ")
+            .append(this.name).append(", ")
+            .append(this.birthdate)
+            .append(")")
+            .toString();
     }
 }

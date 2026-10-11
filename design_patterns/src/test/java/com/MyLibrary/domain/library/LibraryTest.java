@@ -1,4 +1,4 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.library;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,8 +1,8 @@
-package com.MyLibrary;
+package com.MyLibrary.domain.author;
 
 import java.time.LocalDate;
 
-final class Author {
+public final class Author {
     private final String id;
     private final String name;
     private final LocalDate birthdate;
@@ -19,6 +19,12 @@ final class Author {
 
     @Override
     public String toString() {
-        return "Author (" + this.id + ", " + this.name + ", " + this.birthdate + ")";
+        return new StringBuilder()
+            .append("Author (")
+            .append(this.id).append(", ")
+            .append(this.name).append(", ")
+            .append(this.birthdate)
+            .append(")")
+            .toString();
     }
 }
