@@ -1,4 +1,4 @@
-# Design Patterns study
+# Design Patterns Study
 
 ## Creational
 
